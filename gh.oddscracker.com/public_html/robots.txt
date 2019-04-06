@@ -1,0 +1,9 @@
+User-agent: *
+Crawl-delay: 30
+Disallow: /.well-known/
+Disallow: /captcha/
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /system/
+Disallow: /ajax/
+Sitemap: https://gh.oddscracker.com/sitemap

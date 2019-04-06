@@ -1,0 +1,69 @@
+* {
+	font-family: "Courier New", Courier, monospace;
+	word-break: break-all;
+}
+.row {
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+.container {
+	width: 96%;
+	margin-top: 25px;
+}
+
+a, li {
+	outline: none;
+	transition-timing-function: ease-in;
+	transition: 0.4s;
+}
+.navbar {
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+.navbar-inverse {
+	background: url(/images/headline-bg.png) center center;
+	border-bottom: 5px solid #59ae1a;
+	background-size: auto 100%;
+}
+.navbar-inverse .navbar-nav > li > a {
+	color: #bdbdbd;
+	padding: 0px 20px;
+	height: 40px;
+	display: inline-block;
+	line-height: 43px;
+	transition: all 0.3s ease;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	text-shadow: 0px 1px 2px rgba(0,0,0,0.9);
+}
+.dropdown-menu li:hover .sub-menu {
+	visibility: visible;
+}
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+.dropdown-menu {
+    background-color: #2e3436;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0px;
+    padding: 0px;
+}
+.dropdown-menu > li > a {
+	color: #FFFFFF;
+	padding: 10px;
+	border-bottom: 1px solid #555753;
+}
+.dropdown-menu > li > a:hover {
+	background-color: #59AE1A;
+	color: #FFFFFF;
+}
+table {
+	table-layout: fixed;
+}
+.ban-btn {
+	display: block;
+}
